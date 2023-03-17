@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:background="#C1DBFA">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -61,7 +62,8 @@
             android:layout_below="@+id/idPassword"
             android:layout_alignRight="@+id/idPassword"
             android:text="Esqueceu sua senha?"
-            android:textColor="#000" />
+            android:textColor="#000"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
