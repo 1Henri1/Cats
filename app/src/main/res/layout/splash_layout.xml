@@ -5,21 +5,26 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    tools:context=".SplashActivity"
+    android:background="#758DA9"
+    android:gravity="center">
 
     <ImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:src="@drawable/cat"
-        android:layout_gravity="center" />
+        android:layout_gravity="center"
+        android:scaleType="centerInside"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cats are perfects"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textColor="#000"
         android:gravity="center"
-        android:shadowColor="#000"
-        android:shadowRadius="3"/>
+        android:shadowColor="#72A445"
+        android:shadowRadius="3"
+        android:textStyle="italic"
+        />
 </LinearLayout>
